@@ -8,6 +8,6 @@ import br.com.tokiomarine.seguradora.avaliacao.entidade.Estudante;
 
 public interface EstudanteRepository extends JpaRepository<Estudante, Long> {
 
-	List<Estudante> findByName(String name);
+	List<Estudante> findByNome(String nome);
 
 }

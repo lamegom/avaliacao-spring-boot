@@ -16,10 +16,10 @@ public class Estudante {
     private Long id;
 
     @NotEmpty(message = "Nome é obrigatório")
-    private String name;
+    private String nome;
 
     @NotEmpty(message = "Email é obrigatório")
-    private String author;
+    private String email;
 
     private String telefone;
 
